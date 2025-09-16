@@ -1,0 +1,21 @@
+{
+  "name": "raven-night",
+  "displayName": "Raven Night",
+  "description": "dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Raven Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Raven Night-color-theme.json"
+      }
+    ]
+  }
+}
