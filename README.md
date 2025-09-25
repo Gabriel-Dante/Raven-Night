@@ -2,4 +2,7 @@
 
 Raven Night is a **dark theme for Visual Studio Code**, inspired by **Monokai** with a modern twist.  
 It features **high contrast**, **vibrant colors**, and a clean look for long coding sessions.
-https://github.com/user-attachments/assets/686c7ae8-be01-4769-bca3-d4993e3e82c5
+
+
+<img width="1371" height="843" alt="image" src="https://github.com/user-attachments/assets/a15bb8e5-68f8-4a0c-951b-ad63be6f25ef" />
+
