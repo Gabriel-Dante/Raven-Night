@@ -6,7 +6,8 @@
     "dropdown.listBackground": "#14141b",
     "list.activeSelectionBackground": "#787c99",
     "list.inactiveSelectionBackground": "#100c0c",
-    "list.hoverBackground": "#787c99",
+    "list.hoverBackground": "#13131a",
+    "list.hoverForeground": "#a9b1d6",
     "list.dropBackground": "#414339",
     "list.highlightForeground": "#668ac4",
     "button.background": "#3d59a1dd",
@@ -49,7 +50,7 @@
     "statusBar.debuggingBackground": "#75715E",
     "statusBarItem.remoteBackground": "#3d59a1",
     "ports.iconRunningProcessForeground": "#ccccc7",
-    "activityBar.background": "#09090a", //
+    "activityBar.background": "#0a0909", //
     "activityBar.foreground": "#787c99", //
     "activityBarTop.background": "#09090a",
     "activityBarTop.foreground": "#787c99",
@@ -82,10 +83,13 @@
     "inputValidation.warningBorder": "#e2e22e",
     "inputValidation.infoBackground": "#546190",
     "inputValidation.infoBorder": "#819aff",
-    "editorHoverWidget.background": "#414339",
-    "editorHoverWidget.border": "#75715E",
-    "editorSuggestWidget.background": "#272822",
-    "editorSuggestWidget.border": "#75715E",
+    "editorMarkerNavigation.background": "#16161e",
+    "editorHoverWidget.background": "#16161e",
+    "editorHoverWidget.border": "#101014",
+    "editorSuggestWidget.background": "#16161e",
+    "editorSuggestWidget.border": "#101014",
+    "editorSuggestWidget.selectedBackground": "#20222c",
+    "editorSuggestWidget.highlightForeground": "#6183bb",
     "editorGroup.border": "#34352f",
     "peekView.border": "#75715E",
     "peekViewEditor.background": "#272822",
@@ -120,7 +124,7 @@
         "string meta.image.inline.markdown",
         "variable.legacy.builtin.python"
       ],
-      "settings": { "foreground": "#F8F8F2" }
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "name": "Comment",
@@ -246,7 +250,15 @@
     {
       "name": "JSON String",
       "scope": "meta.structure.dictionary.json string.quoted.double.json",
-      "settings": { "foreground": "#CFCFC2" }
+      "settings": { "foreground": "#98FB98" }
+    },
+    {
+      "name": "JSON Key",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#87CEFA" // exemplo azul claro
+      }
     },
     {
       "name": "diff.header",
